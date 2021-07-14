@@ -22,13 +22,16 @@ body p
     
     color: white;
     font-size: 30px;
-    margin: 121px 102px 140px 156px;
+    margin: 121px 82px 140px 190px;
 }
+
 #banner img
 {
     width: 556.01px;
     height: 438px;
-    margin: 86px 141px 86px 202px;
+    margin: 86px 121px 126px 100px;
+
+
 }
 
 /* transform - transition part starts */
@@ -92,7 +95,7 @@ body p
 {
     width: 300px;
     height: 256px;
-    padding: 10px 10px;
+    padding: 10px 10px 5px 10px;
 }
  .player-details
 {
@@ -205,21 +208,31 @@ footer p
 
 /*------------------------------------------------Media Query for Mobile Device---------------------------------------------------------  */
 
-@media only screen (max-width:688px)
+@media only screen and (max-width:688px)
 {
-    .players-cell
-    {
-        width: 100%;
-        grid-template-columns: repeat(1, 1fr);
-    }
     .copa-header
     {
         width: 100%;
-    }
-    .players .copa-header
-    {
-        grid-template-columns: repeat(1, 1fr);
         flex-direction: column;
     }
+    .players-cell
+    {
+        width: 100%;
+       flex-direction:column;
+       grid-template-columns: repeat(1, 1fr);
+    }
+    .breaking-news
+    {
+        flex-direction:column;
+    }
+    .sponsors, .sponsor-logo
+    {
+        flex-direction: column;
+    }
+    #logo, .social, #copyright
+    {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
 
 }
