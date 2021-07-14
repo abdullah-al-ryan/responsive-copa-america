@@ -99,7 +99,76 @@ body p
     padding: 0px 5px 5px 5px;
 } 
 
-/* footer  */
+/*----------------------- breaking news------------------------ start  */
+.breaking-news
+{
+    display: flex;
+
+}
+.newspart
+{
+    width: 50%;
+    margin: 5%;
+    border-radius: 25px;
+    box-shadow: 1px 2px 10px 5px rgba(9, 248, 248, 0.226);
+    padding: 15px 25px;
+    background-color: darkslategray;
+    color: white;
+}
+.newspart img
+{
+    width: 100%;
+    height: 100%;
+}
+
+#news
+{
+    margin-top: 3%;
+    display: flex;
+    justify-content: center;
+    color: white;
+    background-color: rgba(226, 20, 20, 0.726);
+    margin-left: 25%;
+    margin-right: 25%;
+}
+.news-no
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.country
+{
+    font-size: 30px;
+}
+
+/*-------------------- sponsors-------------------- */
+#sponsors
+{
+    background-color: rgb(35, 73, 35);
+    margin: 0 20%;
+    border-bottom: 2%;
+}
+
+.sponsor h1
+{
+    color: white;
+}
+.sponsor, .sponsor-logo
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 150%;
+}
+
+.sponsor-logo img
+{
+    height: 50%;
+    width: 200px;
+}
+
+/* --------------------footer------------------------------  */
 #footer
 {
     margin-top: 6%;
@@ -109,23 +178,30 @@ body p
     align-items: center;
 
 }
-#footer img
-{
-    width: 483.87px;
-    height: 110px;
+footer #logo{
+   
+    margin-left: 25%;
+    justify-content: space-between;
 }
-.social i
+footer img:first-child
 {
-    justify-content: center;
-    align-items: center;
-    margin: 0px 10px;
-    background-color: #969bab2d;
+    width: 40%;
+}
+footer i{
+    font-size: 32px;
+    color: gray;
+    background-color: gainsboro;
     border-radius: 50%;
-    border: 2%;
-    color: #969BAB;
-    width: 32px;
-    height: 32px;
+    padding: 10px;
+    margin-right: 15px;
 }
+footer p
+{
+    margin-top: 25px;
+    font-size: 18px;
+}
+
+/* -------------------        footer ends   ---------------------  */
 
 /*------------------------------------------------Media Query for Mobile Device---------------------------------------------------------  */
 
