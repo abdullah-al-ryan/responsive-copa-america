@@ -145,14 +145,14 @@ body p
 /*-------------------- sponsors-------------------- */
 #sponsors
 {
-    background-color: rgb(35, 73, 35);
+    background-color: pink;
     margin: 0 20%;
     border-bottom: 2%;
 }
 
 .sponsor h1
 {
-    color: white;
+    color: black;
 }
 .sponsor, .sponsor-logo
 {
